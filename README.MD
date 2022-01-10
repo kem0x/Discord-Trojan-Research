@@ -10,7 +10,7 @@
 
 - Components:
 
-  - Loader: A JavaScript file packed with [Nexe](https://github.com/nexe/nexe) that is used to copy the infected index file.
+  - Loader: A JavaScript file packed with [Nexe](https://github.com/nexe/nexe) that is used to copy the infected index file, and also steals your token already.
 
   - Payload: A JavaScript script that the loader appends to `%AppData%\Discord\[version]\modules\discord_desktop_core\index.js`.
 
