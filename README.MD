@@ -6,7 +6,7 @@
 
 - Alot of my friends got infected with this virus, Including [GewoonIraj](https://github.com/GewoonIraj), so i asked him for the infected index file, and he gave me the file and i decided to research it!.
 
-## **Research:**
+# **Research:**
 
 - Components:
 
@@ -14,17 +14,17 @@
 
   - Payload: A JavaScript script that the loader appends to `%AppData%\Discord\[version]\modules\discord_desktop_core\index.js`.
 
-- This trojan workflow is the following:
+- This trojan's workflow is the following:
 
-  - When the victim runs the loader, it scans for all discord clients, copies the payload to index file and then kills (closes) all the running discord clients, then restarts the closed clients again.
+  - When the victim runs the loader, it scans for all discord clients, copies the payload to the index file and then kills (closes) all the running discord clients, then restarts the closed clients again.
 
-  - The payload abuses electors callbacks, to set some sort of hooks (detours) for the functions.
+  - The payload abuses electron's callbacks, to set some sort of hooks (detours) for the functions.
     Those functions are:
-    `onBeforeRequest`: To call `FirstTime()` function, This function is used if it's the first time for the user to launch his infected client, and it will log the user out of his account to make sure he relogins on the infected client.
-    `onHeadersReceived` Used to bypass `Content Security Policy`.
-    `onCompleted` Calls certain functions on specific requests to send the stolen data to the hacker.
+     - `onBeforeRequest`: To call `FirstTime()` function, This function is used if it's the first time for the user to launch his infected client, and it will log the user out of his account to make sure he relogins on the infected client.
+    - `onHeadersReceived`: Used to bypass `Content Security Policy`.
+    - `onCompleted`: Calls certain functions on specific requests to send the stolen data to the hacker.
 
-- The payload is an obfuscated JavaScript file, I deobfuscated it and made it fully readable, I also included the original obfuscated file in the repository as well as the deobfuscation script.
+- The payload is an obfuscated JavaScript file, I deobfuscated it and made it fully readable, I also included the original obfuscated file in the repository as well as the deobfuscation script, added some comments to the files so make sure to check those out!
 
 - [Deobfuscated Script](/index.js)
 - [Deobfuscation Script](/decrypt.js)
@@ -32,4 +32,4 @@
 
 ## **Disclaimer:**
 
-- This is just for research purposes, please do not use this code for any illegal purposes, this was done to help discord and electron.
+This is just for research purposes, please do not use this code for any illegal purposes, this was done to help discord and electron.
