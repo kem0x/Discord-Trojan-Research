@@ -1,6 +1,6 @@
 # Discord Trojan Research
 
-- The authors or the name of this virus is unknown (atleast to me lol).
+- The trojan researched here is called **Bby Stealer**, It's a service sold for 35$ per life time license at a discord server ([lol](https://twitter.com/xkem0x/status/1480688507353980934))
 
 - Recently, This virus got so wide spread, the trick is to infect a user and use the infected user's token for illegal purposes, and also to infect other users on his friendlist.
 
