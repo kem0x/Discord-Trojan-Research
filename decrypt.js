@@ -34,7 +34,7 @@ var encryptedCrap = `function FirstTime() {
 }`;
 
 //The result is not directly working, requires a bit of work afterwards but not much tbh.
-//Mostly you have to replace the constants and  by hand and rename some variables, those need human sense.
+//Mostly you have to replace the constants by hand and rename some variables, those need human sense.
 var returnStringes = encryptedCrap.match(/returnString\([0-9]+\)/g);
 for (var i = 0; i < returnStringes.length; i++) {
     var curreturnString = returnStringes[i];
