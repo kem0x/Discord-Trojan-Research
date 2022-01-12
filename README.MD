@@ -26,9 +26,10 @@
 
 - The payload is an obfuscated JavaScript file, I deobfuscated it and made it fully readable, I also included the original obfuscated file in the repository as well as the deobfuscation script, added some comments to the files so make sure to check those out!
 
-- [Deobfuscated Script](/index.js)
-- [Deobfuscation Script](/decrypt.js)
-- [Original Script](/og.js)
+- [Deobfuscated Payload](/payload.js)
+- [Deobfuscation script for playload](/decryptPayload.js)
+- [Obfuscated Loader](/loader.js)
+
 
 ## **Disclaimer:**
 
