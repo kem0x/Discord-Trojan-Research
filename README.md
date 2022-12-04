@@ -8,7 +8,21 @@
 
 - Alot of my friends got infected with this virus, Including [GewoonIraj](https://github.com/GewoonIraj), so i asked him for the infected index file, and he gave me the file and i decided to research it!.
 
-# **Research:**
+- **PLEASE** if you have a sample of something that you think might be this, DM us on discord
+
+## Disclaimer
+
+This is just for research purposes, please do not use this code for any illegal purposes, this was done to help discord and electron.
+
+## Am I infected?
+
+If you're not 100% sure, you can try scanning your system with the rule in the [yara/](yara/) folder.
+
+It probably wont get it 100% of the time, but it should work most of the time.
+
+## Research
+
+### Original Sample
 
 - Components:
 
@@ -32,7 +46,5 @@
 - [Deobfuscation script for playload](/decryptPayload.js)
 - [Obfuscated Loader](/loader.js)
 
+### New sample
 
-## **Disclaimer:**
-
-This is just for research purposes, please do not use this code for any illegal purposes, this was done to help discord and electron.
