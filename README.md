@@ -42,9 +42,9 @@ It probably wont get it 100% of the time, but it should work most of the time.
 
 - The payload is an obfuscated JavaScript file, I deobfuscated it and made it fully readable, I also included the original obfuscated file in the repository as well as the deobfuscation script, added some comments to the files so make sure to check those out!
 
-- [Deobfuscated Payload](/payload.js)
-- [Deobfuscation script for playload](/decryptPayload.js)
-- [Obfuscated Loader](/loader.js)
+- [Deobfuscated Payload](/samples/original/payload.js)
+- [Deobfuscation script for playload](/samples/original/decryptPayload.js)
+- [Obfuscated Loader](/samples/original/loader.js)
 
 ### New sample
 
